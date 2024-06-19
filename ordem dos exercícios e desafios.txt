@@ -1,0 +1,23 @@
+EXERCÍCIOS
+Cap 04: ex001
+Cap 05: ex002
+Cap 06: ex003 | ex004
+Cap 07: ex006
+Cap 08: ex007 | ex008 | ex008b
+Cap 09: ex009
+Cap 10: ex010
+Cap 11: ex011 | ex012
+Cap 12: ex013 | ex014 | ex015
+Cap 13: ex016
+Cap 14: ex017 | ex018
+Cap 15: ex019 | ex020
+Cap 16: 
+
+DESAFIOS
+MÓDULO 01
+Cap 05: mensagens e emojis            | d001, d004
+Cap 06: imagens e do mapa mundi       | d002, d003
+Cap 08: tags em HTML                  | d006
+Cap 10: desafio social e navegação    | d005, d008
+Cap 11: imagem flexível e meus vídeos | d007, d009
+
