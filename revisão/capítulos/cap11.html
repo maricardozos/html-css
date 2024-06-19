@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/pc-logo.ico" type="image/x-icon">
+    <title>Capítulo 11</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1 class="titulo-principal">Capítulo 11 - part 1</h1>
+    <p>No capítulo 11 aprendemos sobre ... Nesse capítulo fizemos os exercícios 011 e 012. Os desafios baseados nesse capítulo são os 007 e 009.</p>
+    <h1>Exercício 011</h1>
+    <h2>Imagem dinâmica</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e dimunua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="arquivos-cap11/foto-p.png" type="image/png">
+        <source media="(max-width: 800px)" srcset="arquivos-cap11/foto-m.png" type="image/png">
+        <img src="arquivos-cap11/foto-g.png" alt="Imagem Grande">
+    </picture>
+    <h2>Reproduzindo Áudio</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="arquivos-cap11/happy-mistake.mp3" type="audio/mpeg">
+        <source src="arquivos-cap11/happy-mistake.ogg" type="audio/ogg">
+        <source src="arquivos-cap11/happy-mistake.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio, clique <a href="arquivos-cap11/happy-mistake.mp3">aqui</a> para baixar o arquivo MP3.</p>
+    </audio>
+    <br>
+        <a href="../index.html" target="_self" rel="prev"><button>Início</button></a>
+        <a href="" target="_self" rel="prev"><button>Anterior</button></a> <a href="" target="_self" rel="next"><button>Próximo</button></a>
+</body>
+</html>
