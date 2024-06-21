@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*Bebas Neue*/
+
+body {
+    background-color: #EBE5C5;
+}
+
+header {
+    background-image: linear-gradient(360deg, #0B4926, #1C7745,#2B9B5E);
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+}
