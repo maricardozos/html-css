@@ -2,24 +2,78 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*Bebas Neue*/
 
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf);
+} /*Idroid*/
+
 body {
     background-color: #EBE5C5;
+    width: 1000px;
+    margin: auto;
+    padding: auto;
 }
 
 header {
-    background-image: linear-gradient(360deg, #0B4926, #1C7745,#2B9B5E);
+    background-image: linear-gradient(360deg, #053C1D 10%, #1C7745,#2B9B5E);
+    box-shadow: 1px 1px 18px 2px rgba(110, 109, 109, 0.5);
+    padding: 20px;
 }
 
 header > h1{
-    color: white;
+    font-family: 'Bebas Neue';
     text-align: center;
-}
+    font-size: 45px;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    }
 
 header > p {
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+    font-size: 18px;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #279559;
+    text-decoration: none;
+    padding-right: 1%;
+    padding-left: 2%;
+    font-weight: bold;
 }
 
 main {
     background-color: white;
+    width: 950px;
+    padding: 10px 20px 20px 20px;
+    margin: px 10px 10px 10px;
+    border: 5px 10px 10px 10px;
+    box-shadow: 1px 1px 18px 2px rgba(110, 109, 109, 0.5);
+}
+
+h1 {
+    color: #053C1D;
+    font-family: 'Idroid';
+    font-size: 28px;   
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h2 {
+    font-family: 'Idroid';
+    font-size: 20px;
+    color: #1C7745;
+    background-image: linear-gradient(90deg, #84E1AD, #C5F1D9, white);
 }
